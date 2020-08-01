@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catalog</title>
+        <meta name="description" content="Catalog Library Books Broadcast">
+        <script src="/js/catalog.js" async></script>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://github.com/rizky-hanifudin">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Library Books Broadcast</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Buku Bulan September 2019</h2>
+            <div id="searchWrapper">
+                <input type="text" name="searchBar" id="searchBar" placeholder="Masukkan Judul atau Nama Penulis Buku"/>
+            </div>
+            <ul id="booksList"></ul>
+            </div>            
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Buku 1</span>
+                    <img class="shop-item-image" src="images/Album 1.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp 12.000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Pesan</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Buku 2</span>
+                    <img class="shop-item-image" src="images/Album 2.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp15.000</span>
+                        <button class="btn btn-primary shop-item-button"type="button">Pesan</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Buku 3</span>
+                    <img class="shop-item-image" src="images/Album 3.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp 10.000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Pesan</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Buku 4</span>
+                    <img class="shop-item-image" src="images/Album 4.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp 19.500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Pesan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Buku Bulan Agustus 2019</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Buku 5</span>
+                    <img class="shop-item-image" src="images/Shirt.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp 19.000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Pesan</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Buku 6</span>
+                    <img class="shop-item-image" src="images/Cofee.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rp 6.000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Pesan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">PESANAN</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">JUDUL</span>
+                <span class="cart-price cart-header cart-column">HARGA</span>
+                <span class="cart-quantity cart-header cart-column">JUMLAH COPY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">Rp. 0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" alt="kirim pesanan buku ke admin" type="button">Kirim</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Library Books Broadcast</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="images/logo-youtube.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="images/logo-spotify.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="images/logo-facebook.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="/js/functions.js"></script>
+    </body>
+</html>
