@@ -33,9 +33,9 @@ const displayBooks = (books) => {
     const htmlString = books
         .map((book) => {
             return `
-            <li class="book" lang="id">
-                <h2>Judul: ${book.judul}</h2><br>
-                <p>Penulis: ${book.penulis}</p><br>
+            <li class="book">
+                <h2>Judul: ${book.judul}</h2>
+                <p>Penulis: ${book.penulis}</p>
                 <p>Pembaca: ${book.pembaca}</p>
             </li>
         `;
