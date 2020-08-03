@@ -108,6 +108,11 @@ html, body {
     padding: .25em 0;
 }
 
+.main-footer-copyright {
+    color: white;
+    padding: .25em 0;
+}
+
 .main-footer-container {
     display: flex;
     align-items: center;
