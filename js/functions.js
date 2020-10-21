@@ -37,6 +37,8 @@ const displayBooks = (books) => {
                 <h2>Judul: ${book.judul}</h2>
                 <p>Penulis: ${book.penulis}</p>
                 <p>Pembaca: ${book.pembaca}</p>
+                <button class="btn btn-second shop-item-button" type="button">Detail</button>
+                <button class="btn btn-primary shop-item-button" type="button">Pesan</button>
             </li>
         `;
         })
