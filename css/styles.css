@@ -43,7 +43,7 @@ html, body {
 }
 
 .main-nav {
-    text-align: right;
+    text-align: left;
     font-size: 1.1em;
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3)
