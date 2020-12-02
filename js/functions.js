@@ -34,11 +34,11 @@ const displayBooks = (books) => {
         .map((book) => {
             return `
             <li class="book">
-                <h2>Judul: ${book.judul}</h2>
-                <p>Penulis: ${book.penulis}</p>
-                <p>Pembaca: ${book.pembaca}</p>
-                <button class="btn btn-second shop-item-button" type="button">Detail</button>
-                <button class="btn btn-primary shop-item-button" type="button">Pesan</button>
+                <h2 tabindex="1">Judul: ${book.judul}</h2>
+                <p tabindex="2">Penulis: ${book.penulis}</p>
+                <p tabindex="3">Pembaca: ${book.pembaca}</p>
+                <button class="btn btn-second shop-item-button" type="button" tabindex="4">Detail</button>
+                <button class="btn btn-primary shop-item-button" type="button" tabindex="5">Pesan</button>
             </li>
         `;
         })
