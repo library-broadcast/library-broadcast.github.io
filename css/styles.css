@@ -97,7 +97,8 @@ html, body {
     /* font-family: "Metal Mania"; */
     font-family: "Source Sans Pro", Arial, sans-serif;
     font-weight: normal;
-    color: #333;
+    color: #FFEB3B;
+    text-shadow: 2px 2px #9C27B0;
     text-align: center;
     font-size: 2.5em;
 }
