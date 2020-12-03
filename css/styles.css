@@ -76,7 +76,8 @@ html, body {
     /* font-family: "Booter - Zero Zero"; */
     font-family: "Source Sans Pro", Arial, sans-serif;
     font-weight: normal;
-    color: white;
+    color: #FFEB3B;
+    text-shadow: 4px 4px #9C27B0;
 }
 
 .band-name-large {
